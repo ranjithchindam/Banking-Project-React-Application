@@ -1,0 +1,115 @@
+.BankingHome{
+    background-color:rgba(0, 0, 0, 0.833);
+    width: 1366;
+    height: 95vh;
+    color:white;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.di{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#root{
+    margin:-8px;
+}
+.ul1{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.maindiv{
+    width:100%;
+    height: 20vh;
+    background-color: black;
+}
+.linksdiv{
+    width:100%;
+    height: 10vh;
+    background-color:rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: space-around;
+    border-top:wheat 2px solid;
+    border-bottom:wheat 2px solid;
+}
+.link{
+    padding: 20px;
+    text-decoration-line: none;
+    color: white;
+}
+.lastdiv{
+    width: 100%;
+    height: 65vh;
+    background-color:rgba(0, 0, 0, 0.974);
+    display: flex;
+    justify-content: flex-start;
+
+}
+.firstdiv{
+    width: 33.33%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.216);
+    border-right: 2px white solid;
+}
+
+.seconddiv{
+    width: 33.33%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.925);
+    border-right: 2px white solid;
+    color: white;
+}
+.thirddiv{
+    width: 33.33%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.422);
+}
+.HomeFirst-f{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+.HomeFirst-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    color: white;
+}
+span{
+    color: red;
+}
+table{
+
+    border-radius: 10px;
+    border: 1px,rgb(27, 5, 74);
+    background-color: beige;
+ }
+tr{
+    text-align: center;
+    color: rgb(12, 12, 226);
+}
+th{
+    color: red;
+}
+.red{
+    color: red;
+}
+input:hover{
+    background-color: rgb(123, 128, 132);
+}
+input:focus{
+    background-color:rgb(245, 245, 22);
+    color:red;
+}
+.submit{
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+}
+.image{
+    width: 120px;
+    height: 120px;
+}
